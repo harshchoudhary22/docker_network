@@ -35,7 +35,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r requirement.txt
 
     - name: Wait for MySQL
       run: sleep 20
